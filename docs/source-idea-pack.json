@@ -1,0 +1,66 @@
+{
+  "rank": 70,
+  "domain": "UnityEditor",
+  "ideaNo": 8,
+  "ideaName": "グリッド矩形スナップ配置ツール",
+  "repository": "grid-rect-snap-placement-tool",
+  "publish": "GitHub Release / BOOTH",
+  "createdIdeaLookup": {
+    "exactPathFirst": "D:/AI/UnityEditor/created_idea_008_grid-rect-snap-placement-tool",
+    "exactPathExists": true,
+    "fallbackSearched": false,
+    "fallbackResults": [],
+    "notes": "完全一致の created_idea と ZIP を使用した。"
+  },
+  "zipLookup": {
+    "exactZip": "D:/AI/UnityEditor/created_idea_008_grid-rect-snap-placement-tool/idea_008_grid-rect-snap-placement-tool.zip",
+    "exactZipExists": true,
+    "requiredFiles": [
+      "metadata.json",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md"
+    ],
+    "missingRequiredFiles": []
+  },
+  "zipMetadata": {
+    "domain": "UnityEditor",
+    "no": 8,
+    "platform": "UnityEditor",
+    "field": "ワールド制作支援",
+    "integration": "",
+    "idea": "グリッド矩形スナップ配置ツール",
+    "overview": "ワールド空間またはローカル空間に任意単位のグリッドを設定し、グリッドの四隅、中心、辺、セルに沿って3Dオブジェクトを配置するEditor拡張。1m、10cm、任意単位の目盛りを切り替え、3Dオブジェクトごとに矩形フットプリントを設定してグリッドと照合する。Mesh boundsから矩形を自動生成し、X/Y/Z軸ごとに位置合わせのON/OFFを切り替え、高さ方向のスナップも行う。",
+    "problem": "建物、家具、床、壁、モジュール素材をScene上に配置する時、Meshの大きさ、基準点、高さ、ローカル回転、グリッド単位がずれて、手作業の微調整が増えやすい。",
+    "similar": "Unity ProGrids, ProBuilder, Grid and Snap, Blender Snap, Unreal Editor Grid Snap",
+    "diff": "Mesh由来の矩形フットプリントと任意グリッドを組み合わせ、ワールド制作向けに四隅、中心、高さ方向まで明示的に配置できる。",
+    "parent": "Plugins",
+    "startPromptFile": "START_PROMPT.md",
+    "documents": [
+      "START_PROMPT.md",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md",
+      "metadata.json"
+    ],
+    "repositoryName": "grid-rect-snap-placement-tool",
+    "repositoryTitle": "grid-rect-snap-placement-tool",
+    "zipFile": "idea_008_grid-rect-snap-placement-tool.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataZipMatches": true,
+  "initialRepositoryReadme": {
+    "existedBeforeCreation": false,
+    "note": "正式 repo が存在しなかったため README.md は存在しないと記録し、domain docs と created_idea ZIP を根拠に作成した。"
+  },
+  "mojibakePolicy": "ZIP本文や既存Markdownは丸写しせず、PICKUP行、metadata、domain docsから正式docsを再構成する。",
+  "unstableEvidencePolicy": "ZIPサイズ、生成時刻、絶対一時パスはQCDS固定根拠に使わない。"
+}

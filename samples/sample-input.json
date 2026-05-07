@@ -1,0 +1,21 @@
+{
+  "product": {
+    "repository": "grid-rect-snap-placement-tool",
+    "title": "グリッド矩形スナップ配置ツール"
+  },
+  "items": [
+    {
+      "id": "grid-rect-snap-placement-tool-happy",
+      "title": "グリッド矩形スナップ配置ツール happy",
+      "status": "ready",
+      "tags": [
+        "unityeditor"
+      ],
+      "gridSize": "16x16",
+      "rectSize": "2x3",
+      "snapRule": "floor-to-grid",
+      "owner": "closed-alpha",
+      "collisionPolicy": "グリッド矩形スナップ配置ツール の確認観点"
+    }
+  ]
+}
