@@ -1,0 +1,32 @@
+{
+  "repository": "grid-rect-snap-placement-tool",
+  "title": "グリッド矩形スナップ配置ツール",
+  "domain": "UnityEditor",
+  "hostApp": null,
+  "rank": 70,
+  "tier": "P2",
+  "ideaNo": 8,
+  "overview": "ワールド空間またはローカル空間に任意単位のグリッドを設定し、グリッドの四隅、中心、辺、セルに沿って3Dオブジェクトを配置するEditor拡張。1m、10cm、任意単位の目盛りを切り替え、3Dオブジェクトごとに矩形フットプリントを設定してグリッドと照合する。Mesh boundsから矩形を自動生成し、X/Y/Z軸ごとに位置合わせのON/OFFを切り替え、高さ方向のスナップも行う。",
+  "problem": "建物、家具、床、壁、モジュール素材をScene上に配置する時、Meshの大きさ、基準点、高さ、ローカル回転、グリッド単位がずれて、手作業の微調整が増えやすい。",
+  "differentiation": "Mesh由来の矩形フットプリントと任意グリッドを組み合わせ、ワールド制作向けに四隅、中心、高さ方向まで明示的に配置できる。",
+  "publish": "GitHub Release / BOOTH",
+  "surface": "UnityEditor product spec + CLI validation core",
+  "entity": "grid placement rule",
+  "requiredFields": [
+    "id",
+    "title",
+    "gridSize",
+    "rectSize",
+    "snapRule",
+    "owner"
+  ],
+  "warningField": "collisionPolicy",
+  "qcdsManualTestCap": "S-",
+  "qcdsTarget": "A-",
+  "benchmarkRepos": [
+    "Sunmax0731/project-portfolio-generator",
+    "Sunmax0731/release-output-check-flow",
+    "Sunmax0731/movie-telop-transcriber",
+    "Sunmax0731/codex-remote-android"
+  ]
+}

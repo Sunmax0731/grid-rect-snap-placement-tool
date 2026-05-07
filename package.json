@@ -1,0 +1,20 @@
+{
+  "name": "grid-rect-snap-placement-tool",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "グリッド矩形スナップ配置ツール の検証ハーネス付きclosed alpha実装",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && node tools/qcds-evaluate.mjs --allow-missing-zip && node tools/package-docs.mjs && node tools/qcds-evaluate.mjs && node tools/package-docs.mjs && node tools/mojibake-check.mjs",
+    "validate": "npm test",
+    "start": "node src/cli.mjs samples/sample-input.json dist/run"
+  },
+  "keywords": [
+    "unityeditor",
+    "grid-rect-snap-placement-tool",
+    "qcds",
+    "closed-alpha",
+    "representative-suite"
+  ],
+  "license": "MIT"
+}
