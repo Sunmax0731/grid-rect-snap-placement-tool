@@ -1,0 +1,11 @@
+{
+  "product": "grid-rect-snap-placement-tool",
+  "title": "グリッド矩形スナップ配置ツール",
+  "domain": "UnityEditor",
+  "ideaNo": 8,
+  "platformType": "unity-editor-package",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}

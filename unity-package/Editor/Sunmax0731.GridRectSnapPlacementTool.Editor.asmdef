@@ -1,0 +1,8 @@
+{
+  "name": "Sunmax0731.GridRectSnapPlacementTool.Editor",
+  "references": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

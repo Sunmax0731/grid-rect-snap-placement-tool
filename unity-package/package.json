@@ -1,0 +1,10 @@
+{
+  "name": "com.sunmax0731.grid-rect-snap-placement-tool",
+  "displayName": "グリッド矩形スナップ配置ツール",
+  "version": "0.1.0-alpha.1",
+  "unity": "2022.3",
+  "description": "grid-rect-snap-placement-tool closed alpha Unity editor package",
+  "author": {
+    "name": "Sunmax0731"
+  }
+}
