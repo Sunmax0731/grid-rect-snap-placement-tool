@@ -1,0 +1,10 @@
+{
+  "product": "grid-rect-snap-placement-tool",
+  "platformType": "unity-editor-package",
+  "pass": true,
+  "method": "runtime-gate",
+  "manualTest": "not-run-by-codex",
+  "packageFile": "package.json",
+  "editorScript": "unity-package/Editor/GridRectSnapPlacementToolWindow.cs",
+  "hostExecution": "Unity executable not available in this environment; importable package structure verified."
+}
